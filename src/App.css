@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+:root {
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*/ *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.form-container {
+  width: 100%;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.form-group {
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  min-width: 460px;
+  min-height: 650px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 1rem 1.2rem;
+  margin-bottom: 10px;
+  background: hsl(226, 40%, 18%);
+  border-radius: 1rem;
+  border: 2px solid #cabf98;
+}
+.header {
+  margin-bottom: 1rem;
+  color: rgb(204, 195, 169);
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.userInput {
+  width: 260px;
+  line-height: 0.5rem;
+  border: 1.5px solid rgba(80, 143, 189, 0.624);
+  border-radius: 0.25rem;
+  background: rgb(228, 233, 242);
+  /* color: #000; */
+  color: rgb(5, 54, 199);
+  padding: 0.25rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 2px solid #d1c7a7;
+}
+
+.list-item {
+  display: flex;
+  margin: 20px 0;
+  /* border: 1px solid #ccc; */
+  background-color: #cfc8b1;
+  color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+  max-height: 30px;
+}
+
+.btn-add {
+  margin-left: 0.5rem;
+  width: 70px;
+  padding: 8px 15px;
+  font-size: 1rem;
+  background: rgb(6, 151, 255);
   color: white;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-add:hover {
+  background: #0574ba;
+  color: #fff;
+}
+.list {
+  width: 250px;
+  background-color: #010d24;
+  border: none;
+  color: #ccc;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-right: 15px;
+  border-radius: 0.2rem;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-complete,
+.btn-delete,
+.btn-edit {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 28px;
+  border-radius: 50%;
+}
+
+.btn-complete {
+  color: #038716;
+  margin-right: 10px;
+}
+
+.btn-edit {
+  color: #0432ea;
+  margin-right: 10px;
+}
+
+.btn-delete {
+  color: rgb(255, 3, 3);
+}
+
+.complete {
+  text-decoration-style: solid;
+  text-decoration-line: line-through;
+  text-decoration-color: #f00101;
+  opacity: 0.6;
+}
+input:focus,
+button.focus {
+  outline: none;
 }

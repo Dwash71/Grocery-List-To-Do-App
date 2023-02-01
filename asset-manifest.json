@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Grocery-List-To-Do-App/static/css/main.231c686e.css",
-    "main.js": "/Grocery-List-To-Do-App/static/js/main.0f1a7d58.js",
-    "index.html": "/Grocery-List-To-Do-App/index.html",
-    "main.231c686e.css.map": "/Grocery-List-To-Do-App/static/css/main.231c686e.css.map",
-    "main.0f1a7d58.js.map": "/Grocery-List-To-Do-App/static/js/main.0f1a7d58.js.map"
+    "main.css": "/static/css/main.231c686e.css",
+    "main.js": "/static/js/main.0f1a7d58.js",
+    "index.html": "/index.html",
+    "main.231c686e.css.map": "/static/css/main.231c686e.css.map",
+    "main.0f1a7d58.js.map": "/static/js/main.0f1a7d58.js.map"
   },
   "entrypoints": [
     "static/css/main.231c686e.css",

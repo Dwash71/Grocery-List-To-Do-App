@@ -9,7 +9,7 @@ const Form = ({ input, setInput, lists, setLists, editList, setEditList }) => {
     setLists(newList);
     setEditList("");
   };
-  
+
   // use useEffect
   useEffect(() => {
     if (editList) {

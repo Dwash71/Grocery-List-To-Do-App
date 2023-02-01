@@ -23,6 +23,7 @@ function App() {
       <div className="form-group">
         <div>
           <Header />
+          <h3 className="itemsLeft">{lists.length} Items left</h3>
         </div>
         <div>
           <Form

@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   //store local into storage
-  const initialState = JSON.parse(localStorage.getItem("lists")) || [];
+  // const initialState = JSON.parse(localStorage.getItem("lists")) || [];
 
   //use state hooks and set state
   const [input, setInput] = useState("");

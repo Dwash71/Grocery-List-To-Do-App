@@ -2,13 +2,14 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 /*
   2. Remove default margin
 */
 * {
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 /*
   3. Allow percentage-based heights in the application
@@ -190,7 +191,7 @@ button.focus {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
     min-width: 600px;
-    min-height: 750px;
+    min-height: 650px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -237,7 +238,7 @@ button.focus {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
     min-width: 500px;
-    min-height: 750px;
+    min-height: 650px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -284,7 +285,7 @@ button.focus {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
     min-width: 450px;
-    min-height: 750px;
+    min-height: 650px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -341,7 +342,7 @@ button.focus {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
     min-width: 400px;
-    min-height: 650px;
+    min-height: 550px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -388,7 +389,7 @@ button.focus {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
     min-width: 400px;
-    min-height: 650px;
+    min-height: 450px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -435,7 +436,7 @@ button.focus {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
     min-width: 370px;
-    min-height: 650px;
+    min-height: 450px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -492,7 +493,7 @@ button.focus {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
     min-width: 320px;
-    min-height: 550px;
+    min-height: 450px;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -549,7 +550,7 @@ button.focus {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
     min-width: 320px;
-    min-height: 550px;
+    min-height: 450px;
     padding: 30px;
     display: flex;
     flex-direction: column;

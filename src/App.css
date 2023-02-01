@@ -136,11 +136,38 @@ h6 {
   border-radius: 0.2rem;
   cursor: pointer;
   transition: all 0.25s ease;
+  outline: 1px solid rgba(246, 246, 253, 0.644);
 }
 
 .btn-add:hover {
   background: #0574ba;
   color: #fff;
+  transition: all 0.25s linear;
+}
+
+.clear {
+  color: #fff;
+  display: block;
+  width: 100%;
+  border-color: rgb(170, 6, 6);
+  background: rgb(170, 6, 6);
+  margin: 2rem auto 0 auto;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  letter-spacing: 0.1rem;
+  border-radius: 0.25rem;
+  outline: 1px solid rgba(246, 246, 253, 0.644);
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+
+.clear:hover {
+  /* background-color: transparent ; */
+  background-color: rgb(121, 3, 3);
+  color: #fff;
+  border: 2px solid #fff;
+  transition: all 0.25s linear;
 }
 .list {
   width: 260px;

@@ -18,6 +18,10 @@ function App() {
     localStorage.setItem("lists", JSON.stringify(lists));
   }, [lists]);
 
+  const clearAll = () => {
+    setLists([]);
+  }
+
   return (
     <div className="form-container">
       <div className="form-group">
@@ -36,8 +40,9 @@ function App() {
           />
         </div>
         <div>
-          <List lists={lists} setLists={setLists} setEditList={setEditList} />
+          <List lists={lists} setLists={setLists} setEditList={setEditList} clearAll={clearAll} />
         </div>
+        <button className="clear" onClick={clearAll}>Clear All</button>
       </div>
     </div>
   );
